@@ -1,0 +1,28 @@
+{
+  "name": "git-tasker",
+  "version": "1.0.0",
+  "description": "Execute scripts when various file types have been updated in GIT",
+  "main": "index.js",
+  "bin": {
+    "git-tasker": "bin/git-tasker"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Beanstalkhq/git-tasker.git"
+  },
+  "author": "Bret Little",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Beanstalkhq/git-tasker/issues"
+  },
+  "homepage": "https://github.com/Beanstalkhq/git-tasker",
+  "dependencies": {
+    "async": "^0.9.0",
+    "colors": "^1.0.3",
+    "lodash": "^2.4.1",
+    "minimatch": "^2.0.1"
+  }
+}
