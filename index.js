@@ -6,7 +6,7 @@ var async = require('async');
 
 var commands = [];
 
-module.exports = function(config, git_list_command) {
+module.exports = function(config, git_list_command, final_callback) {
   exec(git_list_command || 'git diff --name-only HEAD@{1} HEAD',  function(error, stdout, stderr) {
     _.each(stdout.split('\n'), function(file) {
       file = file.trim(); 
@@ -41,6 +41,7 @@ module.exports = function(config, git_list_command) {
         })
       }, 
       function(err) {
+        final_callback(err);
         if(err) {
           console.log((err).red);
         }
