@@ -1,5 +1,5 @@
 # git-execute
-Execute scripts when various file types have been updated in GIT. Specifically this script is used at Beanstalk within a git hook to conditionally run `npm install` and a gulp build when frontend files have changed.
+Execute scripts when various file types have been updated in GIT. Specifically this script is used at Beanstalk within a git hook to conditionally run `npm install` and a gulp build when frontend files have changed. It is used in conjuction with http://stackoverflow.com/questions/3462955/putting-git-hooks-into-repository/3464399#3464399
 
 ## Example configuration within `package.json`
 Install with `npm install -g git-tasker`
