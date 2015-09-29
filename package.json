@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Beanstalkhq/git-tasker",
   "dependencies": {
-    "async": "^0.9.0",
+    "async": "1.4.2",
     "colors": "^1.0.3",
     "lodash": "^2.4.1",
     "minimatch": "^2.0.1"
