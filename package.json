@@ -21,7 +21,7 @@
   "homepage": "https://github.com/Beanstalkhq/git-tasker",
   "dependencies": {
     "async": "^0.9.0",
-    "colors": "^1.0.3",
+    "colors": "^1.1.2",
     "lodash": "^2.4.1",
     "minimatch": "^2.0.1"
   }
